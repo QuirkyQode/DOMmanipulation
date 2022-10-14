@@ -9,7 +9,7 @@
 ![Output](./images/Pic2.png)
 
 
-### Code:
+## Solution Code and Snapshots:
 ``` javascript
 document.querySelector(".side-bar .crayons-card .crayons-subtitle-2").innerText = "Meera Murthy"
 document.querySelector(".side-bar .crayons-card .color-base-70").innerText = "Web developer / AI / Conversation designer"
@@ -30,7 +30,7 @@ document.querySelector(".side-bar .crayons-card .color-base-70").innerText = "We
 
 ### Output
 
-### Code:
+## Solution Code and Snapshots:
 ```javascript
 productlist = document.querySelectorAll(".as-imagegrid-item-title");
 productlistarr = Array.from(productlist)
@@ -58,7 +58,7 @@ productlisttext1 = productlisttext.map(x=>x.split('\n')[0])
 
      Add another FAQ 'My New FAQ' to the list
 
-### Code
+## Solution Code and Snapshots:
 
 ```javascript
 navnodelist = document.querySelectorAll("nav section.parent")
@@ -87,7 +87,7 @@ document.querySelector("nav").appendChild(newele)
 
       Change the contact number
 
-### Code
+## Solution Code and Snapshots:
 
 ```javascript
 document.querySelector(".one-tel-number").innerText = "+91 9999999999"
@@ -111,7 +111,7 @@ document.querySelector(".one-tel-number").innerText = "+91 9999999999"
 ### Output
 ![Output](./images/Pic9.png)
 
-### Code
+## Solution Code and Snapshots:
 
 ```javascript
 document.querySelectorAll(".diwali-deals-product-sale-btn")
@@ -140,7 +140,7 @@ Array.from(btnlist).map(x => x.innerText = "Check out")
 
 ![Output](./images/Pic11.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 function mouseover() { document.querySelectorAll("input")[0].style.backgroundColor = "red"; }
 document.querySelectorAll("input")[0].setAttribute("onmouseover", "mouseover()")
@@ -172,7 +172,7 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 ![Output](./images/Pic13.png)
 
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 ```
 
@@ -196,7 +196,7 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 
 ![Output](./images/Pic15.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelectorAll("#SIvCob a")
 document.querySelectorAll("#SIvCob a")[0].remove()
@@ -224,7 +224,7 @@ document.querySelectorAll("#SIvCob a")[0].remove()
 
 ![Output](./images/Pic17.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelectorAll(".display-heading-1")[0].style.color = "#b1361e"
 document.querySelectorAll(".display-heading-1")[0].style.fontFamily = "monospace"
@@ -250,7 +250,7 @@ document.querySelectorAll(".display-heading-1")[0].style.fontFamily = "monospace
 
 ![Output](./images/Pic19.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 function mouseover() { document.querySelector(".btn-block .login-btn-text").style.backgroundColor = "red"; }
 function mouseOut() { document.querySelector(".btn-block .login-btn-text").style.backgroundColor = "transparent" }
@@ -278,7 +278,7 @@ document.querySelector(".btn-block .login-btn-text").setAttribute("onmouseout", 
 
 ![Output](./images/Pic21.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelector(".logo").innerHTML = "<img width=\"100\" src=\"https://ineuron.ai/images/ineuron-logo.png\">"
 ```
@@ -302,7 +302,7 @@ document.querySelector(".logo").innerHTML = "<img width=\"100\" src=\"https://in
 
 ![Output](./images/Pic23.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelector(".js-repo-form .btn").style.backgroundColor = "blue"
 ```
@@ -327,7 +327,7 @@ Target the top description and change “Matching developers with great companie
 
 ![Output](./images/Pic25.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelectorAll(".fl-heading-text")[0].innerText = "JSBOOTCAMP"
 ```
@@ -352,7 +352,7 @@ document.querySelectorAll(".fl-heading-text")[0].innerText = "JSBOOTCAMP"
 
 ![Output](./images/Pic27.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 ```
@@ -376,7 +376,7 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 
 ![Output](./images/Pic29.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelectorAll(".ps-title")[4].style.textAlign = "right"
 ```
@@ -400,7 +400,7 @@ document.querySelectorAll(".ps-title")[4].style.textAlign = "right"
 
 ![Output](./images/Pic31.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelectorAll(".section-title_title__VEDfK")[0].innerText = "Start with Scratch"
 ```
@@ -425,7 +425,7 @@ document.querySelectorAll(".section-title_title__VEDfK")[0].innerText = "Start w
 
 ![Output](./images/Pic32.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelector(".retailer_btn-align").innerHTML = new Date()
 ```
@@ -451,7 +451,7 @@ document.querySelector(".retailer_btn-align").innerHTML = new Date()
 ![Output](./images/Pic35.png)
 
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelector(".p-footer").style.backgroundColor = "orange"
 ```
@@ -475,7 +475,7 @@ document.querySelector(".p-footer").style.backgroundColor = "orange"
 
 ![Output](./images/Pic37.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelector(".logo").getAttribute("src")
 ```
@@ -499,7 +499,7 @@ document.querySelector(".logo").getAttribute("src")
 
 ![Output](./images/Pic39.png)
 
-### Code
+## Solution Code and Snapshots:
 ```javascript
 document.querySelectorAll(".desc")[0].style.color = "orange"
 ```
