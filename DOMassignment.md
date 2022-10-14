@@ -3,7 +3,7 @@
  Target the Top description div and change the DEV Community to <Your_Name> and description to your passion
 ### Sample Image
 
-![Sample One](./Pic1.png)
+![Sample One](./images/Pic1.png)
 
 ### Code:
 ``` javascript
@@ -13,7 +13,7 @@ document.querySelector(".side-bar .crayons-card .color-base-70").innerText = "We
 
 ### Output
 
-![Output](./Pic2.png)
+![Output](./images/Pic2.png)
 
 # 2. Website Name: [Apple](https://support.apple.com/en-in)
 
@@ -41,7 +41,7 @@ productlisttext1 = productlisttext.map(x=>x.split('\n')[0])
     - Get Element By Id, Create Element, Create Text Node, Append Child
 ### Sample Image
 
-![Sample One](./Pic4.png)
+![Sample One](./images/Pic4.png)
 ### Tasks
 
      Add another FAQ 'My New FAQ' to the list
@@ -67,7 +67,7 @@ document.querySelector("nav").appendChild(newele)
      Query Selector, InnerText
 ### Sample Image
 
-![Sample One](./Pic6.png)
+![Sample One](./images/Pic6.png)
 
 ### Tasks
 
@@ -80,7 +80,7 @@ document.querySelector(".one-tel-number").innerText = "+91 9999999999"
 ```
 
 ### Output
-![Output](./Pic7.png)
+![Output](./images/Pic7.png)
 
 # 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
 
@@ -89,7 +89,7 @@ document.querySelector(".one-tel-number").innerText = "+91 9999999999"
        getElementById, createElement, InnerText, append, setAttribute
 ### Sample Image
 
-![Sample One](./Pic8.png)
+![Sample One](./images/Pic8.png)
 
 ### Tasks
 
@@ -104,7 +104,7 @@ Array.from(btnlist).map(x => x.innerText = "Check out")
 ```
 
 ### Output
-![Output](./Pic9.png)
+![Output](./images/Pic9.png)
 
 # 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
 
@@ -113,7 +113,7 @@ Array.from(btnlist).map(x => x.innerText = "Check out")
     -   Query Selector, Event listeners, Changing Styles
 ### Sample Image
 
-![Sample One](./Pic10.png)
+![Sample One](./images/Pic10.png)
 
 ### Tasks
 
@@ -129,7 +129,7 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 
 ### Output
 
-![Output](./Pic11.png)
+![Output](./images/Pic11.png)
 
 # 7. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
@@ -138,7 +138,7 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
        Form, Value, Submit
 ### Sample Image
 
-![Sample One](./Pic12.png)
+![Sample One](./images/Pic12.png)
 
 
 ### Tasks
@@ -150,7 +150,7 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 ```
 ### Output
 
-![Output](./Pic13.png)
+![Output](./images/Pic13.png)
 
 
 # 8. Webiste Name: [Google](https://www.google.com/)
@@ -161,7 +161,7 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 
 ### Sample Image
 
-![Sample One](./Pic14.png)
+![Sample One](./images/Pic14.png)
 
 ### Tasks
 
@@ -169,7 +169,7 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 
 ### Output
 
-![Output](./Pic15.png)
+![Output](./images/Pic15.png)
 
 ### Code
 ```javascript
@@ -185,7 +185,7 @@ document.querySelectorAll("#SIvCob a")[0].remove()
 
 ### Sample Image
 
-![Sample One](./Pic16.png)
+![Sample One](./images/Pic16.png)
 
 ### Tasks
 
@@ -193,7 +193,7 @@ document.querySelectorAll("#SIvCob a")[0].remove()
 
 ### Output
 
-![Output](./Pic17.png)
+![Output](./images/Pic17.png)
 
 ### Code
 ```javascript
@@ -209,7 +209,7 @@ document.querySelectorAll(".display-heading-1")[0].style.fontFamily = "monospace
 
 ### Sample Image
 
-![Sample One](./Pic18.png)
+![Sample One](./images/Pic18.png)
 
 ### Tasks
 
@@ -217,7 +217,7 @@ document.querySelectorAll(".display-heading-1")[0].style.fontFamily = "monospace
 
 ### Output
 
-![Output](./Pic19.png)
+![Output](./images/Pic19.png)
 
 ### Code
 ```javascript
@@ -235,7 +235,7 @@ document.querySelector(".btn-block .login-btn-text").setAttribute("onmouseout", 
 
 ### Sample Image
 
-![Sample One](./Pic20.png)
+![Sample One](./images/Pic20.png)
 
 ### Tasks
 
@@ -243,7 +243,7 @@ document.querySelector(".btn-block .login-btn-text").setAttribute("onmouseout", 
 
 ### Output
 
-![Output](./Pic21.png)
+![Output](./images/Pic21.png)
 
 ### Code
 ```javascript
@@ -257,7 +257,7 @@ document.querySelector(".logo").innerHTML = "<img width=\"100\" src=\"https://in
 
 ### Sample Image
 
-![Sample One](./Pic22.png)
+![Sample One](./images/Pic22.png)
 
 ### Tasks
 
@@ -265,7 +265,7 @@ document.querySelector(".logo").innerHTML = "<img width=\"100\" src=\"https://in
 
 ### Output
 
-![Output](./Pic23.png)
+![Output](./images/Pic23.png)
 
 ### Code
 ```javascript
@@ -280,7 +280,7 @@ document.querySelector(".js-repo-form .btn").style.backgroundColor = "blue"
 
 ### Sample Image
 
-![Sample One](./Pic24.png)
+![Sample One](./images/Pic24.png)
 
 ### Tasks
 
@@ -288,7 +288,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Output
 
-![Output](./Pic25.png)
+![Output](./images/Pic25.png)
 
 ### Code
 ```javascript
@@ -303,7 +303,7 @@ document.querySelectorAll(".fl-heading-text")[0].innerText = "JSBOOTCAMP"
 
 ### Sample Image
 
-![Sample One](./Pic26.png)
+![Sample One](./images/Pic26.png)
 
 ### Tasks
 
@@ -311,7 +311,7 @@ document.querySelectorAll(".fl-heading-text")[0].innerText = "JSBOOTCAMP"
 
 ### Output
 
-![Output](./Pic27.png)
+![Output](./images/Pic27.png)
 
 ### Code
 ```javascript
@@ -326,7 +326,7 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 
 ### Sample Image
 
-![Sample One](./Pic28.png)
+![Sample One](./images/Pic28.png)
 
 ### Tasks
 
@@ -349,7 +349,7 @@ document.querySelectorAll(".ps-title")[4].style.textAlign = "right"
 
 ### Sample Image
 
-![Sample One](./Pic30.png)
+![Sample One](./images/Pic30.png)
 
 ### Tasks
 
@@ -357,7 +357,7 @@ document.querySelectorAll(".ps-title")[4].style.textAlign = "right"
 
 ### Output
 
-![Output](./Pic31.png)
+![Output](./images/Pic31.png)
 
 ### Code
 ```javascript
@@ -372,7 +372,7 @@ document.querySelectorAll(".section-title_title__VEDfK")[0].innerText = "Start w
 
 ### Sample Image
 
-![Sample One](./Pic33.png)
+![Sample One](./images/Pic33.png)
 
 ### Tasks
 
@@ -380,7 +380,7 @@ document.querySelectorAll(".section-title_title__VEDfK")[0].innerText = "Start w
 
 ### Output
 
-![Output](./Pic32.png)
+![Output](./images/Pic32.png)
 
 ### Code
 ```javascript
@@ -396,7 +396,7 @@ document.querySelector(".retailer_btn-align").innerHTML = new Date()
 
 ### Sample Image
 
-![Sample One](./Pic34.png)
+![Sample One](./images/Pic34.png)
 
 ### Tasks
 
@@ -404,7 +404,7 @@ document.querySelector(".retailer_btn-align").innerHTML = new Date()
 
 ### Output
 
-![Output](./Pic35.png)
+![Output](./images/Pic35.png)
 
 
 ### Code
@@ -420,7 +420,7 @@ document.querySelector(".p-footer").style.backgroundColor = "orange"
 
 ### Sample Image
 
-![Sample One](./Pic36.png)
+![Sample One](./images/Pic36.png)
 
 ### Tasks
 
@@ -428,7 +428,7 @@ document.querySelector(".p-footer").style.backgroundColor = "orange"
 
 ### Output
 
-![Output](./Pic37.png)
+![Output](./images/Pic37.png)
 
 ### Code
 ```javascript
@@ -443,7 +443,7 @@ document.querySelector(".logo").getAttribute("src")
 
 ### Sample Image
 
-![Sample One](./Pic38.png)
+![Sample One](./images/Pic38.png)
 
 ### Tasks
 
@@ -451,7 +451,7 @@ document.querySelector(".logo").getAttribute("src")
 
 ### Output
 
-![Output](./Pic39.png)
+![Output](./images/Pic39.png)
 
 ### Code
 ```javascript
