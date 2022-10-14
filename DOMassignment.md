@@ -1,6 +1,9 @@
 # 1. Webiste Name: [Dev To](https://dev.to/)
 ### Tasks
  Target the Top description div and change the DEV Community to <Your_Name> and description to your passion
+### Sample Image
+
+![Sample One](./Pic1.png)
 
 ### Code:
 ``` javascript
@@ -9,6 +12,8 @@ document.querySelector(".side-bar .crayons-card .color-base-70").innerText = "We
 ```
 
 ### Output
+
+![Output](./Pic2.png)
 
 # 2. Website Name: [Apple](https://support.apple.com/en-in)
 
@@ -34,7 +39,9 @@ productlisttext1 = productlisttext.map(x=>x.split('\n')[0])
 ### Topics
 
     - Get Element By Id, Create Element, Create Text Node, Append Child
+### Sample Image
 
+![Sample One](./Pic4.png)
 ### Tasks
 
      Add another FAQ 'My New FAQ' to the list
@@ -51,11 +58,16 @@ document.querySelector("nav").appendChild(newele)
 
 ### Output
 
+![Output](./Pic5.png)
+
 # 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
 
 ### Topics
 
      Query Selector, InnerText
+### Sample Image
+
+![Sample One](./Pic6.png)
 
 ### Tasks
 
@@ -68,12 +80,16 @@ document.querySelector(".one-tel-number").innerText = "+91 9999999999"
 ```
 
 ### Output
+![Output](./Pic7.png)
 
 # 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
 
 ### Topics
 
        getElementById, createElement, InnerText, append, setAttribute
+### Sample Image
+
+![Sample One](./Pic8.png)
 
 ### Tasks
 
@@ -88,12 +104,16 @@ Array.from(btnlist).map(x => x.innerText = "Check out")
 ```
 
 ### Output
+![Output](./Pic9.png)
 
 # 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
 
 ### Topics
 
     -   Query Selector, Event listeners, Changing Styles
+### Sample Image
+
+![Sample One](./Pic10.png)
 
 ### Tasks
 
@@ -107,11 +127,18 @@ function mouseOut() { document.querySelectorAll("input")[0].style.backgroundColo
 document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 ```
 
+### Output
+
+![Output](./Pic11.png)
+
 # 7. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 ### Topics
 
        Form, Value, Submit
+### Sample Image
+
+![Sample One](./Pic12.png)
 
 
 ### Tasks
@@ -121,9 +148,12 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 ### Code
 ```javascript
 ```
+### Output
 
-# 
-8. Webiste Name: [Google](https://www.google.com/)
+![Output](./Pic13.png)
+
+
+# 8. Webiste Name: [Google](https://www.google.com/)
 
 ### Topics
 
@@ -422,3 +452,8 @@ document.querySelector(".logo").getAttribute("src")
 ### Output
 
 ![Output](./Pic39.png)
+
+### Code
+```javascript
+document.querySelectorAll(".desc")[0].style.color = "orange"
+```
