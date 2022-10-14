@@ -4,6 +4,10 @@
 ### Sample Image
 
 ![Sample One](./images/Pic1.png)
+### Output
+
+![Output](./images/Pic2.png)
+
 
 ### Code:
 ``` javascript
@@ -11,9 +15,9 @@ document.querySelector(".side-bar .crayons-card .crayons-subtitle-2").innerText 
 document.querySelector(".side-bar .crayons-card .color-base-70").innerText = "Web developer / AI / Conversation designer"
 ```
 
-### Output
-
-![Output](./images/Pic2.png)
+![Results](./images/dom1.png)
+![Results](./images/dom1b.png)
+![Results](./images/dom1c.png)
 
 # 2. Website Name: [Apple](https://support.apple.com/en-in)
 
@@ -24,6 +28,8 @@ document.querySelector(".side-bar .crayons-card .color-base-70").innerText = "We
 ### Tasks
   Add another FAQ 'My New FAQ' to the list
 
+### Output
+
 ### Code:
 ```javascript
 productlist = document.querySelectorAll(".as-imagegrid-item-title");
@@ -32,7 +38,9 @@ productlisttext = productlistarr.map(x=>x.innerText)
 productlisttext1 = productlisttext.map(x=>x.split('\n')[0])
 ```
 
-### Output
+![Results](./images/dom2a.png)
+![Results](./images/dom2b.png)
+![Results](./images/dom2c.png)
 
 # 3. Webiste Name: [Youtube Support](https://support.google.com/youtube/)
 
@@ -42,6 +50,10 @@ productlisttext1 = productlisttext.map(x=>x.split('\n')[0])
 ### Sample Image
 
 ![Sample One](./images/Pic4.png)
+### Output
+
+![Output](./Pic5.png)
+
 ### Tasks
 
      Add another FAQ 'My New FAQ' to the list
@@ -56,9 +68,8 @@ newele.querySelector("h3").innerText = "My New FAQ"
 document.querySelector("nav").appendChild(newele)
 ```
 
-### Output
-
-![Output](./Pic5.png)
+![Results](./images/dom3.png)
+![Results](./images/dom3b.png)
 
 # 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
 
@@ -68,6 +79,9 @@ document.querySelector("nav").appendChild(newele)
 ### Sample Image
 
 ![Sample One](./images/Pic6.png)
+### Output
+![Output](./images/Pic7.png)
+
 
 ### Tasks
 
@@ -79,8 +93,7 @@ document.querySelector("nav").appendChild(newele)
 document.querySelector(".one-tel-number").innerText = "+91 9999999999"
 ```
 
-### Output
-![Output](./images/Pic7.png)
+![Results](./images/.png)
 
 # 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
 
@@ -95,6 +108,9 @@ document.querySelector(".one-tel-number").innerText = "+91 9999999999"
 
      Target the main div of card and change the Button text to Check out
 
+### Output
+![Output](./images/Pic9.png)
+
 ### Code
 
 ```javascript
@@ -103,8 +119,7 @@ btnlist = document.querySelectorAll(".diwali-deals-product-sale-btn")
 Array.from(btnlist).map(x => x.innerText = "Check out")
 ```
 
-### Output
-![Output](./images/Pic9.png)
+![Results](./images/.png)
 
 # 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
 
@@ -119,6 +134,10 @@ Array.from(btnlist).map(x => x.innerText = "Check out")
 
      Target the search box and on hover change thebackground color to red.
 
+### Output
+
+![Output](./images/Pic11.png)
+
 ### Code
 ```javascript
 function mouseover() { document.querySelectorAll("input")[0].style.backgroundColor = "red"; }
@@ -127,9 +146,7 @@ function mouseOut() { document.querySelectorAll("input")[0].style.backgroundColo
 document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 ```
 
-### Output
-
-![Output](./images/Pic11.png)
+![Results](./images/.png)
 
 # 7. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
@@ -145,13 +162,16 @@ document.querySelectorAll("input")[0].setAttribute("onmouseout", "mouseOut()")
 
      To Search a topic in the MDN Search bar.
      First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
-### Code
-```javascript
-```
 ### Output
 
 ![Output](./images/Pic13.png)
 
+
+### Code
+```javascript
+```
+
+![Results](./images/.png)
 
 # 8. Webiste Name: [Google](https://www.google.com/)
 
@@ -177,6 +197,8 @@ document.querySelectorAll("#SIvCob a")
 document.querySelectorAll("#SIvCob a")[0].remove()
 ```
 
+![Results](./images/.png)
+
 # 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
 ### Topics
@@ -200,6 +222,8 @@ document.querySelectorAll("#SIvCob a")[0].remove()
 document.querySelectorAll(".display-heading-1")[0].style.color = "#b1361e"
 document.querySelectorAll(".display-heading-1")[0].style.fontFamily = "monospace"
 ```
+
+![Results](./images/.png)
 
 # 10. Webiste Name: [Freecodecamp](https://www.freecodecamp.org/)
 
@@ -226,6 +250,8 @@ function mouseOut() { document.querySelector(".btn-block .login-btn-text").style
 document.querySelector(".btn-block .login-btn-text").setAttribute("onmouseover", "mouseover()")
 document.querySelector(".btn-block .login-btn-text").setAttribute("onmouseout", "mouseOut()")
 ```
+![Results](./images/.png)
+
 
 # 11. Webiste Name: [realme](https://www.realme.com/in/)
 
@@ -249,6 +275,8 @@ document.querySelector(".btn-block .login-btn-text").setAttribute("onmouseout", 
 ```javascript
 document.querySelector(".logo").innerHTML = "<img width=\"100\" src=\"https://ineuron.ai/images/ineuron-logo.png\">"
 ```
+![Results](./images/.png)
+
 # 12. Webiste Name: [Github](https://github.com/)
 
 ### Topics
@@ -271,6 +299,8 @@ document.querySelector(".logo").innerHTML = "<img width=\"100\" src=\"https://in
 ```javascript
 document.querySelector(".js-repo-form .btn").style.backgroundColor = "blue"
 ```
+
+![Results](./images/.png)
 
 # 13. Webiste Name: [Hackerrank](https://www.hackerrank.com/)
 
@@ -295,6 +325,8 @@ Target the top description and change “Matching developers with great companie
 document.querySelectorAll(".fl-heading-text")[0].innerText = "JSBOOTCAMP"
 ```
 
+![Results](./images/.png)
+
 14. Webiste Name: [Asus](https://www.asus.com/in/)
 
 ### Topics
@@ -317,6 +349,7 @@ document.querySelectorAll(".fl-heading-text")[0].innerText = "JSBOOTCAMP"
 ```javascript
 document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 ```
+![Results](./images/.png)
 
 # 15. Webiste Name: [Dell](https://www.dell.com/en-in/shop/deals/laptop-deals?gacd=10415953-9016-5761040-285981356-0&dgc=ST&gclid=Cj0KCQjwguGYBhDRARIsAHgRm4-XUDMhhVNyHXb3s1gY4ZBzORr_d9Se-buhJwy7asyUe7YdqEA11eEaAt6UEALw_wcB&gclsrc=aw.ds&nclid=BxjBlpBQsX6pjSHh-L8YYSU77EpfXRkG1AGMB5Wbeu386ykspfrPDnfx_DdFau20)
 
@@ -340,6 +373,7 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 ```javascript
 document.querySelectorAll(".ps-title")[4].style.textAlign = "right"
 ```
+![Results](./images/.png)
 
 # 16. Webiste Name: [Vercel](https://vercel.com/)
 
@@ -364,6 +398,8 @@ document.querySelectorAll(".ps-title")[4].style.textAlign = "right"
 document.querySelectorAll(".section-title_title__VEDfK")[0].innerText = "Start with Scratch"
 ```
 
+![Results](./images/.png)
+
 # 17. Webiste Name: [Sony](https://www.sony.co.in/)
 
 ### Topics
@@ -387,8 +423,9 @@ document.querySelectorAll(".section-title_title__VEDfK")[0].innerText = "Start w
 document.querySelector(".retailer_btn-align").innerHTML = new Date()
 ```
 
-# 
-18. Webiste Name: [Philips](https://www.philips.co.in/)
+![Results](./images/.png)
+
+# 18. Webiste Name: [Philips](https://www.philips.co.in/)
 
 ### Topics
 
@@ -411,6 +448,7 @@ document.querySelector(".retailer_btn-align").innerHTML = new Date()
 ```javascript
 document.querySelector(".p-footer").style.backgroundColor = "orange"
 ```
+![Results](./images/.png)
 
 19. Webiste Name: [Canon](https://in.canon/)
 
@@ -434,6 +472,7 @@ document.querySelector(".p-footer").style.backgroundColor = "orange"
 ```javascript
 document.querySelector(".logo").getAttribute("src")
 ```
+![Results](./images/.png)
 
 20. Webiste Name: [Oppo](https://www.oppo.com/in/)
 
@@ -457,3 +496,5 @@ document.querySelector(".logo").getAttribute("src")
 ```javascript
 document.querySelectorAll(".desc")[0].style.color = "orange"
 ```
+
+![Results](./images/.png)
