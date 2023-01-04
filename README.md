@@ -5,6 +5,9 @@ This is an assignment for DOM manipulation from Full-Stack Javascript Developmen
 The assignment has 20 websites which need to be manipulated as required.
 Each have following section
 
+![image](./images/dom1.png)
+
+
 ## Serial #. website link
 Website to be manipulated.
 ### Tasks
