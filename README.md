@@ -17,9 +17,8 @@ document.querySelector(".side-bar .crayons-card .crayons-subtitle-2").innerText 
 document.querySelector(".side-bar .crayons-card .color-base-70").innerText = "Web developer / AI / Conversation designer"
 ```
 
-<img src="./images/dom1.png"/>
 
-![](./images/dom1.png)
+![Results](./images/dom1.png)
 ![Results](./images/dom1b.png)
 ![Results](./images/dom1c.png)
 
